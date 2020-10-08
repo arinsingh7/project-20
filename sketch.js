@@ -10,13 +10,14 @@ function setup() {
   weight=(400, 1500);
   
   car = createSprite(50, 200, 50, 50);
+  car.shapeColor =color(0,0,0);
   car.velocityX = speed;
-  car.shapeColor =color(0, 0, 0);
+  
   
   
 
   wall = createSprite(1500, 200, 60, height/2);
-  wall.shapeColor =color(165, 42, 42);
+  wall.shapeColor =color(165,42,42);
   
 
 
